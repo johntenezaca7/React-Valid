@@ -1,6 +1,47 @@
 body {
-  margin: 5%;
-  font-family: 'Roboto', sans-serif;
-  color: grey; }
-  body h2 {
-    color: black; }
+ font-family: 'Roboto', sans-serif;
+ margin-top: 2%;
+ margin-left: 15%;
+ margin-right: 15%;
+ background-color: rgb(211, 211, 211);
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+input {
+  height: 45px;
+  width: 400px;
+  font-size: 35px;
+  border: 2px solid  rgb(63, 63, 63);
+  border-radius: 5px;
+  padding-left: 1%;
+}
+
+button {
+  height: 50px;
+  width: 100%;
+  font-size: 30px;
+  color: rgb(58, 58, 58);
+  border: 2px solid  rgb(46, 46, 46);
+  border-radius: 25px;
+}
+.app {
+  display: grid;
+  justify-content: center;
+}
+.main-grid {
+  background-color: white;
+  padding: 1% 5% 7% 5%;
+  width: 500px;
+ border-radius: 20px;
+}
+
+.validation-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1em;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
